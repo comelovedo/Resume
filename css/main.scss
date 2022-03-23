@@ -1,0 +1,73 @@
+
+html {
+    font-family: Roboto, sans-serif;
+    --primary-color: #2f80ed;
+    --secondary-color: #333333;
+  }
+
+  * {
+    color: $secondary-color;
+    color: var(--secondary-color);
+  }
+  
+  h1 {
+    color: var(--secondary-color);
+    margin-bottom: 0.25em;
+  }
+  
+  h2 {
+    color: $secondary-color;
+    color: var(--secondary-color);
+    font-size: 10em;
+    margin-top: 0;
+    margin-bottom: 3em;
+  }
+  h3 {
+    color: $primary-color;
+    color: var(--primary-color);
+  }
+  a {
+    color: var(--primary-color);
+  }
+  .section {
+    margin-bottom: 3em;
+    position: relative;
+  }
+  
+  .cv {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .contacts {
+    margin-bottom: 2em;
+  }
+  
+  .contact {
+    display: flex;
+  }
+  .experience {
+    display: flex;
+    margin-bottom: 2em;
+    &__date {
+      min-width: 185px;
+      margin-bottom: 1em;
+    }
+    &__name {
+      font-weight: bold;
+    }
+  }
+  .education {
+    display: flex;
+    margin-bottom: 3em;
+    &__date {
+      min-width: 185px;
+      margin-bottom: 2em;
+    }
+    &__name {
+      font-weight: bold;
+    }
+  }
+  .hobby {
+    display: flex;
+    margin-bottom: 3em;
+}

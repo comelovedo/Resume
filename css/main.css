@@ -1,0 +1,116 @@
+
+html {
+  font-family: Roboto, sans-serif;
+  --primary-color: #2f80ed;
+  --secondary-color: #333333;
+  --bg-color: #ffffff;
+}
+
+html[data-theme='dark'] {
+  --primary-color: #2f80ed;
+  --secondary-color: #ffffff;
+  --bg-color: #202020;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+* {
+  color: var(--secondary-color);
+}
+
+h1 {
+  color: var(--primary-color);
+  margin-bottom: 0.25em;
+}
+
+h2 {
+  color: var(--secondary-color);
+  font-size: 1em;
+  margin-top: 1;
+  margin-bottom: 0em;
+}
+
+h3 {
+  color: var(--primary-color);
+}
+
+a {
+  color: var(--primary-color);
+}
+
+.section1 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section {
+  margin-bottom: 3em;
+  position: relative;
+}
+
+.cv {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contacts {
+  margin-bottom: 2em;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact__type {
+  min-width: 100px;
+}
+
+.experience {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.experience__date {
+  min-width: 185px;
+  margin-bottom: 1em;
+}
+
+.experience__name {
+  font-weight: bold;
+}
+
+.education {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3em;
+}
+
+.education__date {
+  min-width: 185px;
+  margin-bottom: 2em;
+}
+
+.education__name {
+  font-weight: bold;
+}
+
+.Hobby {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Hobby__list {
+  min-width: 185em;
+  margin-bottom: 2em;
+}
+/*# sourceMappingURL=main.css.map */
